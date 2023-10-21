@@ -11,7 +11,6 @@ const MainLayout = () => {
         <main className="flex-1 max-w-[600px] border-x border-[#2f3336]">
           <Outlet></Outlet>
         </main>
-
         <RightBar></RightBar>
       </main>
     </div>
