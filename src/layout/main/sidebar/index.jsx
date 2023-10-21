@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "./logo";
-import Menu from "./Menu/index.jsx";
+import Menu from "./menu/index.jsx";
 
 const Sidebar = () => {
   return (
