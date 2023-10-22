@@ -1,8 +1,12 @@
 import React from "react";
-import MainLayout from "../../layout/main";
+import StickyHeader from "../../assets/components/sticky-header";
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <div>
+      <StickyHeader title="Anasayfa"> </StickyHeader>
+    </div>
+  );
 };
 
 export default Home;
